@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# LegalBeacon – AI Legal Assistance Chatbot 🤖⚖️
 
-## Getting Started
+LegalBeacon is an AI-powered legal assistance chatbot that helps users understand complex legal topics through natural language interactions. It uses advanced retrieval techniques and large language models to provide accurate, context-aware legal responses.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🔧 Tech Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Python** – core backend logic  
+- **RAG (Retrieval-Augmented Generation)** – for contextual legal answers  
+- **Weaviate** – vector database for semantic search  
+- **Spyder** – for web scraping legal documents  
+- **LLMs via OpenRouter** – to interpret and answer queries  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## ✨ Features
 
-## Learn More
+- 💬 Ask legal questions in plain English  
+- 📚 Retrieves and summarizes laws, sections and relevant legal resources  
+- 🔍 Semantic search powered by vector embeddings (Weaviate)  
+- 🌐 Scrapes legal websites to keep the database updated  
+- ⚡ Fast and lightweight backend  
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
